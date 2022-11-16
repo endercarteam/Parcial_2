@@ -13,7 +13,23 @@ type:str
 time:str
 new_car(owner_name, type, time)
 }
-abstract type
+abstract type{
+{abstract} select_type()
+
+}
+class SUV{
+select_type()
+}
+class compact_car{
+select_type()
+}
+class VAN{
+select_type()
+}
+
+type *-- SUV
+type *-- compact_car
+type *-- VAN
 
 
 parkinglot o-- car
