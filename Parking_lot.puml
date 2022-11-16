@@ -1,0 +1,30 @@
+class user{
+nombre:str
+entrance_time:int
+exit_time:int
+setname()
+set_entrancetime()
+set_exittime()
+}
+
+class car{
+owner_name:str
+type:str
+time:str
+new_car(owner_name, type, time)
+}
+abstract type
+
+
+parkinglot o-- car
+car *-- user
+
+
+
+
+
+
+
+
+
+@enduml
